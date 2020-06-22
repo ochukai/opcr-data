@@ -1,6 +1,6 @@
 SELECT
-  ed.equipment_id,
-  ed.equipment_name,
+  ed.equipment_id id,
+  ed.equipment_name name,
   ed.craft_flg, -- 1 成品装备 0 碎片
   ed.promotion_level, -- 装备等级
   ec.condition_equipment_id_1,
