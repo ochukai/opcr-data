@@ -1,19 +1,18 @@
 select
   ud.unit_id id,
   ud.unit_name name,
-  -- ud.atk_type,
   up.promotion_level rank,
-  up.equip_slot_1 eid1,
+  up.equip_slot_1 id1,
   ed1.equipment_name name1,
-  up.equip_slot_2 eid2,
+  up.equip_slot_2 id2,
   ed2.equipment_name name2,
-  up.equip_slot_3 eid3,
+  up.equip_slot_3 id3,
   ed3.equipment_name name3,
-  up.equip_slot_4 eid4,
+  up.equip_slot_4 id4,
   ed4.equipment_name name4,
-  up.equip_slot_5 eid5,
+  up.equip_slot_5 id5,
   ed5.equipment_name name5,
-  up.equip_slot_6 eid6,
+  up.equip_slot_6 id6,
   ed6.equipment_name name6
 from
   unit_data ud
