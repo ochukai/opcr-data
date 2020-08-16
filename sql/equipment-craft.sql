@@ -1,8 +1,8 @@
 SELECT
   ed.equipment_id id,
   ed.equipment_name name,
-  ed.craft_flg, -- 1 成品装备 0 碎片
-  ed.promotion_level level, -- 装备等级
+  -- ed.craft_flg, -- 1 成品装备 0 碎片
+  -- ed.promotion_level level, -- 装备等级
   ec.condition_equipment_id_1 id1,
   ed1.equipment_name name1,
   ec.consume_num_1 num1,

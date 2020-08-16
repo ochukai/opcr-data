@@ -4,7 +4,7 @@ const readLine = require("readline");
 
 const sqlite3 = require('sqlite3').verbose();
 
-const dbPath = path.join(__dirname, '..', 'db', 'oli-tw111.db');
+const dbPath = path.join(__dirname, '..', 'db', 'oli-tw.db');
 const db = new sqlite3.Database(dbPath);
 
 function readFileToArr(fileName) {
@@ -33,13 +33,14 @@ function sleep(count = 1) {
 }
 
 const files = [
-  'equipment_data.sql',
-  'item_data.sql',
+  // 'equipment_data.sql',
+  // 'equipment_craft.sql',
+  // 'item_data.sql',
   'quest_data.sql',
-  'quest_reward_data.sql',
-  'unit_data.sql',
-  'unit_profile.sql',
-  'unit_promotion.sql'
+  // 'quest_reward_data.sql',
+  // 'unit_data.sql',
+  // 'unit_profile.sql',
+  // 'unit_promotion.sql'
 ];
 
 const fileDirs = files.map(file => path.join(__dirname, file));

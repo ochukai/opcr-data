@@ -20,14 +20,14 @@ join unit_promotion up
   on up.unit_id = ud.unit_id
 left join equipment_data ed1
   on ed1.equipment_id = up.equip_slot_1
-join equipment_data ed2
+left join equipment_data ed2
   on ed2.equipment_id = up.equip_slot_2
-join equipment_data ed3
+left join equipment_data ed3
   on ed3.equipment_id = up.equip_slot_3
-join equipment_data ed4
+left join equipment_data ed4
   on ed4.equipment_id = up.equip_slot_4
-join equipment_data ed5
+left join equipment_data ed5
   on ed5.equipment_id = up.equip_slot_5
-join equipment_data ed6
+left join equipment_data ed6
   on ed6.equipment_id = up.equip_slot_6
 -- where up.unit_id = 101001
